@@ -21,7 +21,7 @@
     display: block;
     -webkit-appearance: none;
     appearance: none;
-    background-color: var(--form-background);
+    /* background-color: var(--form-background); */
     margin: 0;
     position: relative;
     width: 3rem;

@@ -1,3 +1,9 @@
+.image-container {
+    width: 165px;
+    height: 110px;
+    margin: 0 auto;
+}
+
 img {
     animation: shake 2s linear infinite;
 }

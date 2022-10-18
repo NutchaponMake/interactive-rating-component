@@ -4,7 +4,9 @@ export const Thanks = (props) => {
   const { score, maxScore } = props;
   return (
     <div>
-      <img src={ThanksImg} />
+      <div className={classes["image-container"]}>
+        <img src={ThanksImg} alt="Thanks Image" />
+      </div>
       <div className={classes["thanks-container"]}>
         <p>
           You selected {props.score || 0} out of {props.maxScore || 5}

@@ -14,7 +14,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -47,7 +46,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned
@@ -56,7 +55,6 @@ This project help me learn how to custom a input radio button and custom other s
 
 ```css
 .clear-default-input-radio-style {
-  display: block;
   -webkit-appearance: none;
   appearance: none;
   background-color: var(--form-background);

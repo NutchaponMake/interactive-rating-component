@@ -55,7 +55,6 @@ This project help me learn how to custom a input radio button and custom other s
 
 ```css
 .clear-default-input-radio-style {
-  display: block;
   -webkit-appearance: none;
   appearance: none;
   background-color: var(--form-background);

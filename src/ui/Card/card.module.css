@@ -1,0 +1,8 @@
+.card {
+    max-width: 23rem;
+    padding: 2rem;
+    /* background-color: hsl(213, 19%, 18%); */
+    background: rgba(35, 42, 51);
+    background: radial-gradient(circle at top, rgba(35, 42, 51) 0%, rgb(22, 30, 41) 80%);
+    border-radius: 1rem;
+}

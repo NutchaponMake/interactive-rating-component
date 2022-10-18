@@ -1,0 +1,16 @@
+.star-row {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.circle {
+    background-color: rgb(38, 47, 56);
+    border-radius: 50%;
+}
+
+.circle img {
+    padding: .8rem;
+    vertical-align: middle;
+}

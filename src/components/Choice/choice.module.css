@@ -1,0 +1,46 @@
+.scoreRadio {
+    position: relative;
+}
+
+
+.scoreRadio label {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+    transition: all 0.25s ease;
+}
+
+.scoreRadio:hover label {
+    color: white
+}
+
+.scoreRadio input {
+    display: block;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--form-background);
+    margin: 0;
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(38, 47, 56);
+    border-radius: 100%;
+    cursor: pointer;
+
+    transition: all 0.25s ease;
+}
+
+.scoreRadio:hover input {
+    background-color: rgb(124, 137, 152);
+}
+
+.scoreRadio input:checked {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.scoreRadio input:checked~label {
+    color: white;
+}

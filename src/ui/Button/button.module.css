@@ -1,0 +1,14 @@
+.btn {
+    letter-spacing: 0.1rem;
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 1.6rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}

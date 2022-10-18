@@ -13,4 +13,39 @@
 .circle img {
     padding: .8rem;
     vertical-align: middle;
+    animation: spinShrink 1s linear forwards;
 }
+
+@keyframes spinShrink {
+    0% {
+        transform: scale(0.6) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(1.5) rotate(150deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+/* @-moz-keyframes spin {
+    from {
+        -moz-transform: scale(1.4) rotate(0deg);
+    }
+
+    to {
+        -moz-transform: scale(1) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: scale(1.4) rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: scale(1) rotate(360deg);
+    }
+} */

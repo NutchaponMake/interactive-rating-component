@@ -6,3 +6,11 @@
     background: radial-gradient(circle at top, rgba(35, 42, 51) 0%, rgb(22, 30, 41) 80%);
     border-radius: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .card {
+        max-width: auto;
+        padding: 2rem;
+        margin: 1.5rem;
+    }
+}

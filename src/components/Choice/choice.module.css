@@ -39,8 +39,23 @@
 
 .scoreRadio input:checked {
     background-color: hsl(25, 97%, 53%);
+    animation: popping .15s linear forwards;
 }
 
 .scoreRadio input:checked~label {
     color: white;
+}
+
+@keyframes popping {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    0% {
+        transform: scale(1);
+    }
 }

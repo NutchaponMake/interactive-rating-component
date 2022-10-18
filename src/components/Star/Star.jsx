@@ -5,7 +5,7 @@ export const Star = (props) => {
   return (
     <div className={classes["star-row"]}>
       <div className={classes.circle}>
-        <img src={starIcon} />
+        <img src={starIcon} alt="star icon" />
       </div>
     </div>
   );

@@ -46,7 +46,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned

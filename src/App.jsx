@@ -6,7 +6,7 @@ import { ChoiceContainer } from "./components/ChoiceContainer/ChoiceContainer";
 import { Description } from "./components/Description/Description";
 import { Star } from "./components/Star/Star";
 import { Thanks } from "./components/Thanks/Thanks";
-import { Footer } from "../../../nft-preview-card/code/src/components/Footer/Footer";
+import { Footer } from "./components/Footer/Footer";
 
 const numbersArray = [1, 2, 3, 4, 5];
 

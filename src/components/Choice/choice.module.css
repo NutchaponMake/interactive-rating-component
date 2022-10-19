@@ -9,6 +9,9 @@
     top: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    /*this for prevent user copying on text of score*/
+    pointer-events: none;
+    /*--------------------*/
 
     transition: all 0.25s ease;
 }

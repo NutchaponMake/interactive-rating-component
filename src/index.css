@@ -34,3 +34,12 @@ footer {
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+
+input,
+button {
+  /*this disabled tap highlight in mobile*/
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  /*-------------------------------------------------*/
+}

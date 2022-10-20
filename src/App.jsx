@@ -11,8 +11,8 @@ import { Footer } from "./components/Footer/Footer";
 const numbersArray = [1, 2, 3, 4, 5];
 
 function App() {
-  // console.log("RENDER!");
-  const ref = useRef(null);
+  console.log("RENDER!");
+  const choiceRef = useRef(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [score, setScore] = useState("0");
 
@@ -20,6 +20,8 @@ function App() {
 
   const onSubmitScoreHandler = (ev) => {
     ev.preventDefault();
+
+    selectedScoreHandler(choiceRef.current.value);
     setIsSubmitted((prevState) => !prevState);
   };
 
@@ -38,10 +40,7 @@ function App() {
       <Card>
         <Star />
         <Description isSubmitted={isSubmitted} />
-        <ChoiceContainer
-          numbersArray={numbersArray}
-          onScoreSelected={selectedScoreHandler}
-        />
+        <ChoiceContainer numbersArray={numbersArray} ref={choiceRef} />
         <Button text="SUBMIT" type="button" onClick={onSubmitScoreHandler} />
       </Card>
       <Footer />

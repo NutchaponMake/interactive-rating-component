@@ -1,14 +1,14 @@
 import { useRef } from "react";
+import { forwardRef } from "react";
 import { useState } from "react";
 import classes from "./choice.module.css";
 
-export const Choice = (props) => {
-  const selectedScore = useRef(null);
+export const Choice = forwardRef((props, ref) => {
+  // const selectedScore = useRef(null);
+  // const scoreSelectedHandler = () => {
+  //   props.onScoreSelected(selectedScore.current.value);
+  // };
 
-  const scoreSelectedHandler = () => {
-    console.log(selectedScore.current.value);
-    props.onScoreSelected(selectedScore.current.value);
-  };
   return (
     <div className={classes.scoreRadio}>
       <input
@@ -16,10 +16,9 @@ export const Choice = (props) => {
         id={`score-${props.score}`}
         name="score-group"
         value={props.score}
-        onChange={scoreSelectedHandler}
-        ref={selectedScore}
+        ref={ref}
       />
       <label htmlFor={`score-${props.score}`}>{props.score}</label>
     </div>
   );
-};
+});
